@@ -1,0 +1,46 @@
+.header {
+    text-align: center;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.player {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.computer {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.bottom-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.score-header {
+    text-align: center;
+}
+
+.score-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.player-score {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.computer-score {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
