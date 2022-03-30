@@ -1,11 +1,16 @@
+body {
+    height: 100vh;
+}
+
 .header {
     text-align: center;
+    max-height: 15%;
 }
 
 .top-container {
     display: flex;
     justify-content: center;
-
+    max-height: 60%;
 }
 
 .player {
@@ -23,6 +28,7 @@
 .bottom-container {
     display: flex;
     flex-direction: column;
+    max-height: 25%;
 }
 
 .score-header {
@@ -34,13 +40,10 @@
     justify-content: center;
     text-align: center;
 }
-.player-score {
-    max-width: 50%;
-    text-align: center;
-    margin: auto;
-}
-.computer-score {
-    max-width: 50%;
+.player-score,
+.computer-score,
+.tied-score {
+    max-width: 33%;
     text-align: center;
     margin: auto;
 }
