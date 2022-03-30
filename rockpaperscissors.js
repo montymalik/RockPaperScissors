@@ -4,6 +4,7 @@ const playerScore = document.querySelector('.player-score');
 const computerScore = document.querySelector('.computer-score');
 const tiedScore = document.querySelector('.tied-score');
 const playerChoice = document.querySelectorAll('.btn-player');
+const whoWins = document.querySelector('.winner');
 // const playerChoicePaper = document.querySelector('.btn-paper');
 // const playerChoiceScissor = document.querySelector('.btn-scissors');
 
@@ -84,13 +85,13 @@ function game(x) {
             }
     } else {
         let winner = win(playerWin, computerWin);
-        alert('The ' + winner + ' is the winner!')
-        playerScore.innerText = 0;
-        computerScore.innerText = 0;
-        tiedScore.innerText = 0;
-        computerWin = 0;
-        playerWin = 0;
-        tied = 0;
+        whoWins.innerText ="The " + winner + " Wins!"
+        // playerScore.innerText = 0;
+        // computerScore.innerText = 0;
+        // tiedScore.innerText = 0;
+        // computerWin = 0;
+        // playerWin = 0;
+        // tied = 0;
     }
 }
 
